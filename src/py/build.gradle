@@ -1,0 +1,12 @@
+plugins {
+
+}
+
+buildall {
+    doLast { task ->
+        println "I'm $task.project.name"
+    }
+}
+
+
+
